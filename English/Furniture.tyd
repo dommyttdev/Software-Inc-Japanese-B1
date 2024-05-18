@@ -20,7 +20,9 @@ Furniture
     3mEndTable                   [ "3m End Table"; "Even more round" ]
     Desk                         [ "Desk"; "" ]
     MordernDesk                  [ "Modern Desk"; "" ]
-    CheapChair                   [ "Cheap Chair"; "Uncomfortable plastic chair"; "Seat"; "Support" ]
+    AdjustableDesk               [ "Adjustable Desk"; "" ]
+    CheapChair                   [ "Plastic Chair"; "Uncomfortable plastic chair"; "Seat"; "Support" ]
+    DiningChair                  [ "Dining Chair"; "For all your non-office sitting needs"; "Seat"; "Support" ]
     OfficeChair
         [
         "Office Chair"
@@ -32,11 +34,15 @@ Furniture
     ExecutiveChair               [ "Executive Chair"; "For maximum chairing"; "Seat"; "Back"; "Support" ]
     ErgoChair                    [ "Ergonomic chair"; ""; "Seat"; "Frame" ]
     YogaBall                     [ "Yoga Ball"; "" ]
+    AngularChair                 [ "Angular Chair"; ""; "Seat"; "Support" ]
+    PaddedChair                  [ "Padded Chair"; ""; "Seat"; "Support" ]
+    CafeChair                    [ "Cafe Chair"; ""; "Seat"; "Support" ]
     WaitingChairs                [ "Waiting Chairs"; ""; "Frame"; "Seat" ]
     Couch                        [ "Couch"; "Living Room Inc." ]
     ModernCouch                  [ "Modern Couch"; "" ]
     LeatherCouch                 [ "Leather Couch"; "" ]
     Bench                        [ "Bench"; "It's a bench" ]
+    Shelf                        [ "Shelf"; "" ]
     SmallHeater                  [ "Small Heater"; "Humble heating unit for your basic office needs" ]
     CeilingFan
         [
@@ -70,11 +76,13 @@ Furniture
         "Radiator"
         "Central heating units will pump hot water through this thing to heat a room"
         ]
+    LargeRadiator                [ "Large Radiator"; "" ]
     Ventilation
         [
         "Ventilation"
         "Central cooling units will push cool air out of this thing to cool down a room"
         ]
+    CeilingAC                    [ "Ceiling AC"; ""; "Base" ]
     HeatingFloorGrill            [ "Heating Floor Grill"; "" ]
     CoolingFloorGrill            [ "Cooling Floor Grill"; "" ]
     Industrialventilation
@@ -108,6 +116,7 @@ Furniture
         "Base"
         ]
     Cubiclewall                  [ "Cubicle Wall"; "" ]
+    CubicleWall2                 [ "Cubicle Wall"; "" ]
     Lamp
         [
         "Lamp"
@@ -126,6 +135,9 @@ Furniture
         "Lighting"
         ]
     FloorLamp                    [ "Floor Lamp"; "Makes light, but is also in the way"; "Shade"; "Support" ]
+    OpenFloorLamp                [ "Open Floor Lamp"; ""; "Shade"; "Support" ]
+    TripodLamp                   [ "Tripod Lamp"; ""; "Shade"; "Joint"; "Support" ]
+    LightBar                     [ "Light Bar"; ""; "Base"; "Light" ]
     Fluorescentlamp
         [
         "Fluorescent lamp"
@@ -134,6 +146,8 @@ Furniture
         "Support"
         "Lighting"
         ]
+    ThinHangingLamp              [ "Thin Hanging Lamp"; ""; "Shade"; "Support"; "Lighting" ]
+    TriangleHangingLamp          [ "Triangle Hanging Lamp"; ""; "Shade"; "Support"; "Lighting" ]
     OutdoorLamp
         [
         "Outdoor Lamp"
@@ -184,6 +198,7 @@ Furniture
     Toilet                       [ "Toilet"; "Poop machine"; "Base"; "Seat" ]
     Sink                         [ "Sink"; "" ]
     Shower                       [ "Shower"; "" ]
+    FoundersBed                  [ "Founder's Bed"; "" ]
     WaterCooler                  [ "Water Cooler"; "A place for employees to socialize" ]
     Painting                     [ "Painting"; "A corny painting to liven up the office" ]
     AcousticFoam                 [ "Acoustic Foam"; "" ]
@@ -206,6 +221,9 @@ Furniture
         "Big Plant"
         "Takes up a lot of space, but employees agree that it makes up for it by looking nice"
         ]
+    Dracaena                     [ "Dracaena"; "" ]
+    SnakePlant                   [ "Snake Plant"; "" ]
+    Strelitzia                   [ "Strelitzia"; "" ]
     SquareCarpet                 [ "Square Carpet"; "" ]
     CornerCarpet                 [ "Corner Carpet"; "" ]
     RoundedCarpet                [ "Rounded Corner Carpet"; "" ]
@@ -312,9 +330,11 @@ Furniture
         "Automatically yeets up to 108 boxes into the stratosphere for {Currency:6500} a pop"
         ]
     BoxElevator                  [ "Box Elevator"; "Transfer boxes between floors" ]
-    CompanyLogo                  [ "Company Logo"; ""; "Text"; "Outline"; "Shadow" ]
-    CompanyLogoBig               [ "Company Logo Big"; ""; "Text"; "Outline"; "Shadow" ]
+    CompanyLogo                  [ "Company Title"; ""; "Text"; "Outline"; "Shadow" ]
+    CompanyLogoBig               [ "Big Company Title"; ""; "Text"; "Outline"; "Shadow" ]
     CompanyLogoHigh              [ "Company Logo High"; ""; "Text"; "Outline"; "Shadow" ]
+    ActualCompanyLogo            [ "Company Logo"; "" ]
+    ActualCompanyLogoBig         [ "Big Company Logo"; "" ]
     SolarPanel
         [
         "Solar Panel"
@@ -322,6 +342,14 @@ Furniture
         ]
     Battery                      [ "Battery"; "1 watt saved is worth more than 1 watt sold" ]
     Windturbine                  [ "Wind turbine"; "Pulling electricity out of thin air" ]
+    GoldBars                     [ "Gold Bars"; "" ]
+    SilverBars                   [ "Silver Bars"; "" ]
+    CopperBars                   [ "Copper Bars"; "" ]
+    FloorHole                    [ "Hole"; "" ]
+    BestDesignerAward            [ "Best Designer Award"; "Slows social needs and stress in room" ]
+    BestEmployerAward            [ "Best Employer Award"; "Slows hunger and bladder in room" ]
+    BestProductAward             [ "Best Product Award"; "Slows furniture degredation in room" ]
+    MostProfitableAward          [ "Most Profitable Award"; "Slows dirt accumulation in room" ]
     Standarddoor                 [ "Standard door"; "It's a door..." ]
     Casedopening                 [ "Cased opening"; "" ]
     Slidingglassdoor             [ "Sliding glass door"; "Door that doubles as a window" ]
@@ -333,6 +361,7 @@ Furniture
     Smallprivatewindow           [ "Small private window"; "For all your bathroom needs" ]
     Archedgate                   [ "Arched gate"; "" ]
     Opengate                     [ "Open gate"; "" ]
+    WallHole                     [ "Hole"; "" ]
     }
 
 Stairs    "Stairs"
@@ -346,4 +375,5 @@ Outdoors  "Outdoors"
 Utility   "Utility"
 Bathroom  "Bathroom"
 Kitchen   "Kitchen"
+Hole      "Hole"
 Gate      "Gate"
